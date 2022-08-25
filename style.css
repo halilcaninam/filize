@@ -17,6 +17,7 @@ body{
   list-style: none;
   text-decoration: none;
   background-color: rgb(213, 214, 214);
+  background-position: right;
 }
 header{
   grid-column: 1/2;
@@ -24,10 +25,11 @@ header{
   display:grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
-  background-image: linear-gradient(to right bottom, rgba(106, 177, 224, 0.836), rgba(58, 18, 150, 0.774)), url(img/arkaplan.jpg);
+  background-image: linear-gradient(to right bottom, rgba(106, 177, 224, 0.8), rgba(58, 18, 150, 0.774)), url(img/arkaplan.jpg);
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   height: 50vh;
   background-size: cover;
+  b
 }
 .header-logo_box{
   grid-row: 1/2;
