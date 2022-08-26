@@ -7,24 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>  <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
-
-        <div class="navigation__background">&nbsp;</div>
-
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Hakkımızda</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Öğrencilerimiz</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Paketler</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Kayıt Ol</a></li>
-
-                </ul>
-        </nav>
+<body>  
+ 
     </div>
   <header class="header">
       <div class="header-logo_box">
@@ -39,14 +23,26 @@
 
         <h1 class="header-h1">Filiz <span>Eğitim Danışmanlığı</span></h1>
           <br><br>
-        <a href="" class="header-link">BİLGİ</a>
+        <a href="" class="header-link">BİLGİ</a> 
+        
+        <div class="navigation">
+        
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#hakkımda" class="navigation__link">Hakkımızda</a></li>
+                <li class="navigation__item"><a href="#öğrenci" class="navigation__link">ğrencilerimiz</a></li>
+                <li class="navigation__item"><a href="#paket" class="navigation__link">Paketler</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"></a></li>
+
+                </ul>
+        </nav>
 
 
 
       </div>
   </header>
 
-  <main class="hikaye">
+  <main class="hikaye" id="hakkımda">
 
     <video src="img/Board - 18400.mp4" autoplay muted loop class="hikaye-video"></video>
     <h1 class="hikaye-başlık"> Bizi Tercih EDERSENİZ Kazanacaklarınız</h1>
@@ -62,7 +58,7 @@
     
   </main>
 
-  <section class="ogrenci">
+  <section class="ogrenci" id="öğrenci">
     <div class="yorum-1">
     <img src="img/yorumcu-asıl.jpg" class="öğrenci-img öğrenci1" alt="">
     <p class="yorum-p yorump1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dignissimos maxime tenetur deleniti atque cum. Itaque, vel modi harum nihil consequuntur in neque molestiae ipsum repellendus dolorem, nemo deleniti odit.
@@ -76,7 +72,7 @@
     Deserunt est ex repellendus aperiams.</p>
   </div>
   </section>
-  <section class="secenek">
+  <section class="secenek" id="paket">
      <h1 class="secenek-h1">ABONELİKLER</h1>
 
     <div class="secenek1"> <h3 class="secenekbaslik">BASİC Paket</h3><div class="secenek-baslik"> </div> <ul class="secenek-ul">
